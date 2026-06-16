@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.env.local
+.venv
+env/
+venv/
+ENV/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Large model weights and datasets
+*.h5
+*.pth
+*.pt
+*.keras
+dataset/
+checkpoints/
+runs/
+
+# Large temporary files and logs
+*.log
